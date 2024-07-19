@@ -16,9 +16,7 @@ def get_last_comic_number():
     url = 'https://xkcd.com/info.0.json'
     response = requests.get(url)
     response.raise_for_status()
-    response = response.json()
-    last_comic_number = response['num']
-    return last_comic_number
+    return response.json()['num']
 
 
 def main():

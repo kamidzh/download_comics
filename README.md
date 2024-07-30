@@ -30,8 +30,8 @@ python main.py
 Пример содержания файла `.env`:
 
 ```
-TELEGRAM_TOKEN = "bot-token"
-TG_CHAT_ID = "@chat id"
+TELEGRAM_TOKEN="bot-token"
+TG_CHAT_ID="@chat id"
 ```
 
 Получить токен `TG_TOKEN` можно у отца ботов. В описании канала получите название и положите в переменную `ТG_CHAT_ID` .

@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import os
 import telegram
 
+
 def download_image(img_url, img_path, params=None):
     response = requests.get(img_url, params)
     response.raise_for_status()
